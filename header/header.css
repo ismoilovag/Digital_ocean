@@ -1,0 +1,126 @@
+.header {
+  width: 100%;
+}
+.header__nav {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+  position: fixed;
+  z-index: 1;
+}
+.header__nav-menu-list {
+  display: flex;
+  gap: 60px;
+  padding: 20px 0px;
+}
+.header__nav-menu .menu-image {
+  display: none;
+}
+.header__nav-box-btn {
+  font-size: 16px;
+  padding: 15px 35px;
+  color: #fff;
+  border-radius: 6px;
+  background: #0082F4;
+  border: none;
+}
+.header__hero {
+  width: 100%;
+  display: flex;
+  padding: 120px 0px;
+}
+.header__hero-left {
+  padding: 0px 100px;
+}
+.header__hero-left-style {
+  font-size: 25px;
+  padding: 30px 0px;
+}
+.header__hero-left-style2 {
+  font-size: 60px;
+  padding: 10px 0px;
+}
+.header__hero-left-style3 {
+  font-size: 14px;
+  padding: 30px 0px;
+  color: rgb(131, 130, 130);
+}
+.header__hero-left-box {
+  display: flex;
+  gap: 40px;
+  padding: 20px 0px;
+}
+.header__hero-left-box-btnbtn {
+  border-radius: 10px;
+  background: #0082F4;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+}
+.header__hero-left-box-btnbtn2 {
+  display: flex;
+  gap: 10px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #0082F4;
+  padding: 6px 15px;
+}
+.header__hero-left-box-btnbtn2 p {
+  padding: 7px 0px;
+}
+.header__hero-right {
+  padding: 0px 100px 0px 0px;
+}
+
+@media screen and (max-width: 560px) {
+  .header__nav {
+    justify-content: space-around;
+  }
+  .header__nav-menu-list {
+    display: none;
+  }
+  .header__nav-menu .menu-image {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+  .header__nav-box-btn {
+    padding: 10px;
+  }
+  .header__hero {
+    display: block;
+  }
+  .header__hero-left {
+    padding: 0px 50px;
+  }
+  .header__hero-left-style {
+    font-size: 20px;
+    padding: 15px 0px;
+  }
+  .header__hero-left-style2 {
+    font-size: 50px;
+  }
+  .header__hero-left-style3 {
+    font-size: 10px;
+  }
+  .header__hero-left-box {
+    gap: 15px;
+  }
+  .header__hero-left-box-btnbtn {
+    padding: 10px 45px;
+  }
+  .header__hero-left-box-btnbtn2 {
+    padding: 5px 30px;
+  }
+  .header__hero-left-box-btnbtn2 img {
+    padding: 5px 0px;
+  }
+  .header__hero-right {
+    padding: 10px 10px;
+  }
+  .header__hero-right-image {
+    width: 100%;
+  }
+}/*# sourceMappingURL=header.css.map */
